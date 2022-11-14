@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<!-- Trees -->
+
+<project path="device/xiaomi/spes" name="enweazudaniel/android_device_xiaomi_spes.git" remote="github" revision="13.0" />
+
+<project path="vendor/xiaomi/spes" name="enweazudaniel/android_vendor_xiaomi_spes.git" remote="github" revision="13.0" />
+
+<project path="kernel/xiaomi/spes" name="enweazudaniel/kernel_xiaomi_spes_header.git"
+
+remote="github" revision="13.0" />
+
+<remove-project name="hardware/qcom-caf/sm8250/display" />
+
+<project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-19.1-caf-sm8250" />
+
+<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi.git" remote="github" revision="lineage-19.0" />
+
+</manifest>
